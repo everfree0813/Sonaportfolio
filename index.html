@@ -55,43 +55,45 @@
         <!-- Home -->
         <section id="home"><img class="home__avatar" src="images/sona2.png" alt="">
             <h2 class="home__title">Hello! <br /> <strong class="home__title--strong">I&#39;m Sona</strong></h2>
-            <p class="home__description">A software engineer</p>
+            <p class="home__description">A Web Developer</p>
             <a class="home__contact" href="#contact">Contact Me</a>
         </section>
 
         <!-- About -->
-        <section id="about" class="section">
-            <h2 class="title">About me</h2>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+        <section id="about" class="section max-container">
+            <h2 class="title"><strong>About me</strong></h2>
+            <p class="description">I want to be Full-Stack Web Developer.<br /> My dream job would be web designing and fixing the code.
             </p>
-            <ul>
-                <li><i class="fa-brands fa-html5"></i>
-                    <p>Front-end</p>
-                    <p>HTML, CSS, Javascript.Bootstrap</p>
+            <ul class="majors">
+                <li class="major"><i class="fa-brands fa-html5 major__icon"></i>
+                    <p class="major__title">Front-end</p>
+                    <p>HTML, CSS, Javascript,Bootstrap</p>
                 </li>
 
-                <li>
-                    <i class="fa-solid fa-mobile"></i>
-                    <p>Mobile</p>
-                    <p>Adobe XD</p>
+                <li class="major">
+                    <i class="fa-solid fa-mobile major__icon"></i>
+                    <p class="major__title">Mobile</p>
+                    <p>Adobe XD,Wordpress</p>
                 </li>
 
-                <li>
-                    <i class="fa-solid fa-server"></i>
-                    <p>Back-end</p>
-                    <p>Javascript, NodeJs, Python</p>
+                <li class="major">
+                    <i class="fa-solid fa-server major__icon"></i>
+                    <p class="major__title">Back-end</p>
+                    <p>Javascript, NodeJs, ASP.NET, PHP</p>
                 </li>
             </ul>
-            <ul>
-                <li><img src="images/jobs/google.png" alt="google logo"><div>
-                    <p>Google as Senior software engineer</p> 
+
+            <ul class="jobs">
+                <li class="job"><img src="images/jobs/google.png" alt="google logo"><div>
+                    <p class="job__name">Mokwon University- South Korea</p> 
+                    <p class="job__period">Physics, Bachelor's degree</p>
+
                 </div></li>
-                <li>
+                <li class="job">
                     <img src="images/jobs/samsung.png" alt="samsing log">
                     <div>
-                        <p>Samsung as software engineer</p>
-                        <p>2014 - 2019</p>
+                        <p class="job__name">Wake Tech Community College - Raleigh</p>
+                        <p class="job__period">Web Development</p>
                     </div>
                 </li>
             </ul>
@@ -100,13 +102,14 @@
 
         <!-- Skill -->
         <section id="skills" class="section">
+          <div class="max-container">
             <h2 class="title">My Skills</h2>
             <p class="description">Skills & Attributes</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-            <div>
-               <section>
-                <h3>Coding Skills</h3>
+            <div class="skills">
+               <section class="skills__coding">
+                <h3 class="skills__tilte">Coding Skills</h3>
                 <ul>
                     <li>
                     <div><span>HTML</span><span>98%</span><div>
@@ -129,8 +132,8 @@
                 </li>
                 </ul>
                </section>
-               <section>
-                <h3>Tools</h3>
+               <section class="skills__tools">
+                <h3 class="skills__tilte">Tools</h3>
                 <ul>
                     <li>Visual Studio Code</li>
                     <li>IntelliJ</li>
@@ -139,8 +142,8 @@
                     <li>Adobe XD</li>
                 </ul>
                </section>
-               <section>
-                <h3>Etc</h3>
+               <section class="skills__etc">
+                <h3 class="skills__tilte">Etc</h3>
                 <ul>
                     <li>Git</li>
                     <li>Scrum Master</li>
@@ -148,6 +151,7 @@
                 </ul>
                </section>
             </div>
+          </div>
         </section>
 
         <!-- Work -->
