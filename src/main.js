@@ -15,3 +15,14 @@ const homeHeight = home.offsetHeight;
 document.addEventListener('scroll', () => {
 home.style.opacity = 1 - window.scrollY / homeHeight;
 });
+
+// // When you scoll below the Arrow up button, it becomes transparent.
+const arrowUp = document.querySelector('.arrow_up');
+document.addEventListener('scroll', () => {
+    if(window.scrollY > homeHeight / 2) {
+        arrowUp.style.opacity = 1;
+    }
+    else {
+        arrowUp.style.opacity = 0;
+    }
+    });
