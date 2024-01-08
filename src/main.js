@@ -26,3 +26,15 @@ document.addEventListener('scroll', () => {
         arrowUp.style.opacity = 0;
     }
     });
+
+//Navbar toggle click button.
+const navbarMenu = document.querySelector('.header__menu');
+const navbarToggle = document.querySelector('.header__toggle');
+navbarToggle.addEventListener('click', () => {
+    navbarMenu.classList.toggle('open');
+});
+
+//When you click the navbar, the munu going to be close automatically.
+navbarMenu.addEventListener('click', () => {
+    navbarMenu.classList.remove('open');
+});
