@@ -12,19 +12,17 @@ categories.addEventListener('click', (event) => {
  }
  handleActiveSelection(event.target);
  filterProjects(filter);
-
-
 });
 
+//Active menu reset
 function handleActiveSelection(target) {
-
 const active = document.querySelector('.category--selected');
 active.classList.remove('category--selected');
 target.classList.add('category--selected');
 }
 
+//project filltering
 function filterProjects(filter) {
- 
  projectsContainer.classList.add('anim-out');
  projects.forEach(project => {
      console.log(project.dataset.type);
